@@ -1,0 +1,9 @@
+Possible Outcomes after 
+death
+skimp
+crown
+bulgy
+Average == 4.0
+MIN ==1
+MAX == 38
++------------------------+

@@ -5,7 +5,8 @@
 package max.wordlesolver;
 
 /**
- *
+ * Linked implementation of a Stack.
+ * 
  * @author max
  */
 public class LinkedStack<E> {
@@ -76,16 +77,5 @@ public class LinkedStack<E> {
         }
         
         //Methods
-    }
-    
-    //Main Method
-    public static void main(String[] args) {
-        LinkedStack<Integer> stack = new LinkedStack<>();
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        
-        System.out.println(stack.getString());
-        System.out.println(stack.size());
     }
 }

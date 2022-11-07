@@ -4,12 +4,12 @@
  */
 package max.wordlesolver;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.util.Scanner;
 
 /**
- *
+ * Builds a WordTree. Reads a file of words of the same length and builds a WordTree.
+ * 
  * @author max
  */
 public class TreeBuilder {
@@ -49,13 +49,13 @@ public class TreeBuilder {
     
     
     //Main Method
-    public static void main(String[] args) {
-        //WORD SET
-        //https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt
-        TreeBuilder builder = new TreeBuilder("./words/FullWordSet", 5);
-        WordTree tree = builder.buildTree();
-        
-        System.out.println(tree.getSize());
-    }
+//    public static void main(String[] args) {
+//        //WORD SET
+//        //https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt
+//        TreeBuilder builder = new TreeBuilder("./words/FullWordSet", 5);
+//        WordTree tree = builder.buildTree();
+//        
+//        System.out.println(tree.getSize());
+//    }
     
 }

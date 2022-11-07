@@ -5,7 +5,8 @@
 package max.wordlesolver;
 
 /**
- *
+ * Represents the Different states a character can have in wordle
+ * 
  * @author max
  */
 public enum Status {

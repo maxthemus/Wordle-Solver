@@ -6,11 +6,11 @@ package max.wordlesolver;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- *
+ * Takes in a sequence of inputted words and finds writes stats to file based on possible words left. 
+ * 
  * @author max
  */
 public class StatHandler {

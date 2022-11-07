@@ -7,7 +7,12 @@ package max.wordlesolver;
 import java.util.ArrayList;
 
 /**
- *
+ *  Holds a 2D array of characters for each [INDEX][CHARACTER]
+ *  If the character is array in the index then the character is available in that index in the word
+ * 
+ * For example if the Character colour is grey then it cannot be in any index so we remove that given character from all 
+ * index's in the array.
+ * 
  * @author max
  */
 public class IndexTracker {
@@ -69,8 +74,9 @@ public class IndexTracker {
     
     
     //Main Method
-    public static void main(String[] args) {
-        IndexTracker tracker = new IndexTracker(5);
-        System.out.println(tracker.toString());
-    }
+//    public static void main(String[] args) {
+//        //Shows a visual representation of the index tracker
+//        IndexTracker tracker = new IndexTracker(5);
+//        System.out.println(tracker.toString());
+//    }
 }

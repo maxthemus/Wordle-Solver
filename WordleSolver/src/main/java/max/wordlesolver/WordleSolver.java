@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- *
+ *  Solves wordle with final word already known. Gives potential strings after every string inputted,
+ * and prints output to specified file using a statsHandler
+ * 
  * @author max
  */
 public class WordleSolver {
@@ -169,6 +171,7 @@ public class WordleSolver {
 
         
         System.out.println(solver.toString());
+        
         solver.outputStats();
     }
 }

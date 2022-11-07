@@ -7,7 +7,13 @@ package max.wordlesolver;
 import java.util.ArrayList;
 
 /**
- *
+ * Used to search a tree using the status Sets to find potential words made with characters with the statuses of:
+ * - Unused
+ * - YELLOW
+ * - GREEN
+ * 
+ * NOT GREY!
+ * 
  * @author max
  */
 public class WordGenerator {
@@ -43,16 +49,4 @@ public class WordGenerator {
        
         return potentialStrings;
     } 
-    
-    
-    //Main Method
-    public static void main(String[] args) {
-        int wordSize = 5;
-        IndexTracker tracker = new IndexTracker(wordSize);
-        StatusSetController status = new StatusSetController();
-        
-        WordGenerator generator = new WordGenerator(5,tracker, status);
-        
-        ArrayList<String> words = generator.getPotentialWords();
-    }
 }

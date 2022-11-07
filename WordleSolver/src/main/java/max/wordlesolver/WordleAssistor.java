@@ -9,7 +9,13 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /**
- *
+ *  Gives potential outcomes when final word isn't known. 
+ *  Takes input of inserted word and the letter colours.
+ * 
+ * There are two modes of operation
+ * - The method playGame() which runs on the commandline taking user input
+ * - OR by calling the insertWord() method in the main method
+ * 
  * @author max
  */
 public class WordleAssistor {

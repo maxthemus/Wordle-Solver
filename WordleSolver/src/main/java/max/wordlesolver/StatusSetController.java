@@ -7,7 +7,8 @@ package max.wordlesolver;
 import java.util.HashMap;
 
 /**
- *
+ * Controls a HashMap of Letter sets where each set represents a status.
+ * 
  * @author max
  */
 public class StatusSetController {
@@ -85,17 +86,15 @@ public class StatusSetController {
         return tempString;
     }
     
-    
-    
-    
-    //Main Method
-    public static void main(String[] args) {
-        StatusSetController controller = new StatusSetController();
-        Letter letter = controller.getLetter('a');
-        
-        controller.moveLetter(letter, Status.GREY);
-        
-        System.out.println(controller.toString());
-        
-    }
+
+//    //Main Method
+//    public static void main(String[] args) {
+//        StatusSetController controller = new StatusSetController();
+//        Letter letter = controller.getLetter('a');
+//        
+//        controller.moveLetter(letter, Status.GREY);
+//        
+//        System.out.println(controller.toString());
+//        
+//    }
 }

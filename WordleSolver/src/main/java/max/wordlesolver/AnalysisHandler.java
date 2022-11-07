@@ -9,7 +9,11 @@ import java.io.FileWriter;
 import java.util.Scanner;
 
 /**
- *
+ *  Uses the statHandler to go through all words and find how many possible words there are left
+ *  after a given sequence of words has been inputted.
+ *  
+ *  then prints output to a specified file.
+ * 
  * @author max
  */
 public class AnalysisHandler {
@@ -56,7 +60,7 @@ public class AnalysisHandler {
             while(reader.hasNextLine()) {
                 word = reader.nextLine();
                 
-//                System.out.println(word);
+//                System.out.println(word); //Can un comment this line to show what words are being compared against
                 
                 this.solver = new WordleSolver(word, "./");
                 this.solver.insertWord("death");
@@ -100,10 +104,10 @@ public class AnalysisHandler {
     
 
     //Main Method
-    public static void main(String[] args) {
-        AnalysisHandler analysis = new AnalysisHandler("./words/FullWordSet", "./output/output.txt");
-        
-        analysis.bruteForcer();
-    }
+//    public static void main(String[] args) {
+//        AnalysisHandler analysis = new AnalysisHandler("./words/FullWordSet", "./output/output.txt");
+//        
+//        analysis.bruteForcer();
+//    }
 }
 

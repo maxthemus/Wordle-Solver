@@ -7,3 +7,13 @@ Average == 4.0
 MIN ==1
 MAX == 38
 +------------------------+
+Word to find == great
+Total possible Words == 5757
+[0] : Inputted == death : Possible Words == 2883
+[1] : Inputted == skimp : Possible Words == 573
+[2] : Inputted == crown : Possible Words == 15
+[3] : Inputted == bulgy : Possible Words == 4
+[4] : Inputted == null : Possible Words == 0
+[5] : Inputted == null : Possible Words == 0
+Possible Words == 4
++------------------------+
